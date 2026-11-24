@@ -11,6 +11,7 @@ description: >
 metadata:
   homepage: https://github.com/Panniantong/Agent-Reach
   version: "{{VERSION}}"
+disable-model-invocation: true
 ---
 
 # Agent Reach

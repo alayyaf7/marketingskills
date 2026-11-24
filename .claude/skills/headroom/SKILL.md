@@ -1,6 +1,7 @@
 ---
 name: headroom
 description: Use when a Python or TypeScript app sends large tool outputs, logs, JSON, search results or long chat history to an LLM and the task is to cut input tokens, reduce token cost, fit a context window, or trim tool results without losing errors. Adds the headroom-ai compress() call; in-process, no API key, no model download.
+disable-model-invocation: true
 ---
 
 # Headroom: compress LLM context before the call
